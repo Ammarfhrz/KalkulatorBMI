@@ -1,17 +1,50 @@
 # Aplikasi Kalkulator BMI (JavaFX)
 
-Aplikasi desktop Kalkulator Indeks Massa Tubuh (BMI) berbasis **JavaFX** yang dilengkapi dengan indikator meteran visual dinamis dan jarum penunjuk interaktif. Proyek ini dikembangkan menggunakan **NetBeans IDE** dan **Scene Builder**.
+Aplikasi **Kalkulator Body Mass Index (BMI)** merupakan aplikasi desktop berbasis JavaFX yang dirancang untuk menghitung Indeks Massa Tubuh berdasarkan berat dan tinggi badan pengguna. Aplikasi ini dilengkapi dengan visualisasi indikator berbentuk meteran serta jarum penunjuk dinamis untuk menampilkan hasil perhitungan secara interaktif dan informatif.
+
+Proyek ini dikembangkan menggunakan **NetBeans IDE** dengan bantuan **Scene Builder** untuk perancangan antarmuka pengguna (GUI).
 
 ## 🛠️ Fitur Utama
-- **Perhitungan BMI Otomatis**: Menghitung skor berdasarkan input berat badan (kg) dan tinggi badan (cm).
-- **Indikator Jarum Dinamis**: Jarum penunjuk berputar secara presisi berdasarkan hasil kategori BMI (Kekurangan Berat Badan, Normal, Kelebihan Berat Badan, dan Obesitas).
-- **Tombol Reset**: Membersihkan kolom input dan mengembalikan posisi jarum ke titik awal secara instan.
+
+- **Perhitungan BMI Otomatis**  
+  Menghitung nilai BMI berdasarkan data berat badan (kg) dan tinggi badan (cm) yang dimasukkan oleh pengguna.
+
+- **Indikator BMI Dinamis**  
+  Menampilkan hasil perhitungan melalui meteran visual dengan jarum penunjuk yang bergerak sesuai nilai BMI.
+
+- **Klasifikasi Kategori BMI**  
+  Menampilkan kategori Indeks Massa Tubuh yang meliputi:
+  - Kekurangan Berat Badan (Underweight)
+  - Berat Badan Normal (Normal)
+  - Kelebihan Berat Badan (Overweight)
+  - Obesitas (Obese)
+
+- **Fitur Reset**  
+  Menghapus seluruh data input dan mengembalikan indikator jarum ke posisi awal sehingga aplikasi dapat digunakan kembali.
+
+## 💻 Teknologi yang Digunakan
+
+- **Java** – Bahasa pemrograman utama.
+- **JavaFX** – Framework untuk pengembangan antarmuka aplikasi desktop.
+- **Scene Builder** – Perancangan antarmuka pengguna (GUI).
+- **NetBeans IDE** – Lingkungan pengembangan aplikasi.
 
 ## 🚀 Cara Menjalankan Aplikasi
-1. Pastikan perangkat Anda telah terpasang **Java Development Kit (JDK)**.
-2. Clone repository ini atau download sebagai file ZIP.
-3. Buka folder proyek menggunakan **NetBeans IDE**.
-4. Jalankan aplikasi melalui file utama **`Launcher.java`**.
 
-## ScreenShot
-<img width="598" height="427" alt="Screenshot Kalkulator BMI" src="https://github.com/user-attachments/assets/c2d74065-c5e0-4dd3-8d15-5f3849776557" />
+1. Pastikan **Java Development Kit (JDK)** telah terinstal pada perangkat.
+2. Clone repository ini atau unduh proyek dalam format ZIP.
+3. Ekstrak file ZIP jika mengunduh proyek.
+4. Buka proyek menggunakan **NetBeans IDE**.
+5. Pastikan konfigurasi JavaFX telah sesuai dengan lingkungan pengembangan.
+6. Jalankan aplikasi melalui file utama **`Launcher.java`**.
+
+## 📸 Screenshot Aplikasi
+
+Berikut merupakan tampilan antarmuka aplikasi Kalkulator BMI:
+
+![Screenshot Kalkulator BMI](https://github.com/user-attachments/assets/c2d74065-c5e0-4dd3-8d15-5f3849776557)
+
+---
+
+**Developer:** Muammar Dhyo Fahrezi  
+**Project:** JavaFX BMI Calculator
